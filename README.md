@@ -1,8 +1,8 @@
-# Assignment #4
+# Assignment #3
 
-## C&#35;
+## C♯
 
-Clone this repository and bring the code pieces you need into your BDSA Assignments GitHub repository.
+Fork or clone repository.
 
 ### Kanban Board
 
@@ -83,6 +83,10 @@ You will want to allow timing to be slightly off - maybe by 5 seconds as the fol
 ```csharp
 var expected = DateTime.UtcNow;
 var actual = DateTime.UtcNow.AddSeconds(2);
+
+actual.Should().BeCloseTo(expected, precision: TimeSpan.FromSeconds(5)) // true
+
+// or
 
 Assert.Equal(expected, actual, precision: TimeSpan.FromSeconds(5)); // true
 ```
