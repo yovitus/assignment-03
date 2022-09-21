@@ -95,32 +95,67 @@ Assert.Equal(expected, actual, precision: TimeSpan.FromSeconds(5)); // true
 
 ### Exercise 1
 
-Study the meaning of encapsulation, inheritance, and polymorphism in OO languages.  Provide a description of these concepts including UML diagram showcasing them.
+  * What level of detail should UML models have?
+  * What is the difference between structural diagrams and behavioral diagrams in UML?
+    - Provide two examples per category.
+
 
 ### Exercise 2
 
-As a maintainance activity (i.e., after having written the code): draw a class diagram representing your implementation of the entities for the C# part.  The purpose of the diagram should be to `document` the main relationships between the entities and their multiplicity.
+Draw a UML class diagram that models the following specifications:
+
+  * A project has a name, a start date, and an end date.
+  * A project is associated to a project manager, a name, a telephone, and a team.
+  * A project manager manages (by starting and terminating) a project and leads a team that is associated with a project.
+  * Projects receive as input requirements and produce a system. Both requirements and the system have a completion percentage and a description.
+  * Each team is composed by developers.
+
 
 ### Exercise 3
 
-As a maintainance activity (i.e., after having written the code): draw a state machine diagram representing your implementation of the task entity.  The purpose of the diagram should be to `document` the diffent states the entity can go through and the transitions that trigget the changes.
+Draw a UML state diagram that models your GitHub action configuration.
+Include all triggers that you have defined.
+
 
 ### Exercise 4
 
-For each of the SOLID principles, provide an example through either a UML diagram or a code listing that showcases the violation of the specific principle.
-_Note:_ the examples do not need to be sophisticated.
+Files that are under version control with Git (or that should be) are in one of the four states: `Untracked`, `Unmodified`, `Modified`, or `Staged`, see the respective [chapter in the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository).
+In that book, the authors provide a sequence diagram instead of a state diagram to illustrate states and state changes of a file, see the illustration below.
+
+![](https://git-scm.com/book/en/v2/images/lifecycle.png)
+
+Draw a UML state diagram that illustrates the states of a single file that is version controlled with Git.
+Let the state diagram start with cloning that file from a remote repository.
+
+Use the git commands `clone`, `add` and `commit` together with file `edit`s as events that trigger state changes.
+Can you also illustrate the actions that Git performs on these events with the help of the [chapter from the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)?
+
 
 ### Exercise 5
 
-For each of the examples provided for SE-4, provide a refactored solution as either a UML diagram or a code listing that showcases a possible solution respecting the principle violeted.
-_Note:_ the examples do not need to be sophisticated.
+Translate the UML collaboration diagram (Fig. 14-14 from APPP), see below into a sequence diagram.
 
-### Note
+![](images/martin_collab_diag.png)
 
-Exercises 4 and 5 could be used in class to further discuss additional examples of the SOLID principles.  If you wish to present and discuss your examples discussed in class, I would be happy to include an hour in one of the future lectures.  Therefore, if the above sounds interesting, please do not hesitate to contact me.  The idea would be to have a brief slot in which you would present your example of one or more of the SOLID principles.
+
+### Exercise 6
+
+
+Draw a UML class diagram that models the structural information given in Fig. 5.7 from SE, see below
+
+![](images/sommerville_seq_diag.png)
+
+---
 
 ## Submitting the assignment
 
-To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the SE questions and a link to a public repository containing your fork of the completed code with the solutions to the C# part.
+To submit the assignment you need to create a PDF document using LaTeX that contains the answers to the questions **and** a link to a public GitHub repository that contains a fork of the assignments repository with the completed code.
 
-Members of the triplets should submit the same PDF file to pass the assignments.  Make sure all group names and ID are clearly marked on the front page.
+**Note**: You should not send a PR with your changes.
+
+The PDF file must conform to the following naming convention: `group_<x>_<id1>_<id2>_<id3>_assignment_02.pdf`, where `<x>` is replaced by the number of your group from [README_GROUPS.md](./README_GROUPS.md) and `<id1>`, `<id2>`, and `<id3>` are your respective ITU identifiers. 
+
+You submit via [LearnIT](https://learnit.itu.dk/mod/assign/view.php?id=164797).
+
+
+
