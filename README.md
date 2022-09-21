@@ -124,8 +124,9 @@ In that book, the authors provide a sequence diagram instead of a state diagram 
 
 ![](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
-Draw a UML state diagram that illustrates the states of a single file that is version controlled with Git.
-Let the state diagram start with cloning that file from a remote repository.
+Draw two UML state diagram that illustrates the states of a single file that is version controlled with Git.
+Let the first state diagram start with cloning a remote repository containing a file that is then edited.
+The second state diagram shall illustrate the states of a file that is newly created in a Git repository.
 
 Use the git commands `clone`, `add` and `commit` together with file `edit`s as events that trigger state changes.
 Can you also illustrate the actions that Git performs on these events with the help of the [chapter from the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)?
