@@ -155,7 +155,7 @@ To submit the assignment you need to create a PDF document using LaTeX that cont
 
 The PDF file must conform to the following naming convention: `group_<x>_<id1>_<id2>_<id3>_assignment_02.pdf`, where `<x>` is replaced by the number of your group from [README_GROUPS.md](./README_GROUPS.md) and `<id1>`, `<id2>`, and `<id3>` are your respective ITU identifiers. 
 
-You submit via [LearnIT](https://learnit.itu.dk/mod/assign/view.php?id=164797).
+You submit via [LearnIT](https://learnit.itu.dk/mod/assign/view.php?id=165090).
 
 
 
