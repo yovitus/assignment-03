@@ -15,7 +15,7 @@
 * Group 15: midf, laup, mlth
 * Group 16: pekp, weny, nkrj
 * Group 17: ssbo, gues, vist
-* Group 18: jklo, kbej, tuka
+* Group 18: jklo, tuka
 * Group 19: avia, tokj, mbia
 * Group 20: aguh, rakt, wihe
 * Group 21: frhc, selb, bath
@@ -24,7 +24,7 @@
 * Group 24: nicha, vime, okre
 * Group 25: phla, stmp, mbjn
 * Group 26: crco, rogy, jwni
-* Group 27: elbr, unla, emno
+* Group 27: elbr, kbej, emno
 * Group 28: dadh, jric, frgm
 * Group 29: mreh, mhsi, mbln
 * Group 30: mgan, otja, mhvl
