@@ -93,10 +93,13 @@ Assert.Equal(expected, actual, precision: TimeSpan.FromSeconds(5)); // true
 
 ## Software Engineering
 
+In the following exercises, whenever you are asked to draw a UML diagram do that with the help of a tool of your choice, see [intro material](https://github.com/itu-bdsa/lecture-notes/tree/main/sessions/swe_00#choose-and-install-a-diagramming-tool).
+
+
 ### Exercise 1
 
   * What level of detail should UML models have?
-  * What is the difference between structural diagrams and behavioral diagrams in UML?
+  * What is the difference between structure diagrams and behavior diagrams in UML?
     - Provide two examples per category.
 
 
@@ -124,15 +127,16 @@ In that book, the authors provide a sequence diagram instead of a state diagram 
 
 ![](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
-Draw two UML state diagram that illustrates the states of a single file that is version controlled with Git.
+Draw two UML state diagrams that illustrate the states of a single file that is version controlled with Git.
 Let the first state diagram start with cloning a remote repository containing a file that is then edited.
-The second state diagram shall illustrate the states of a file that is newly created in a Git repository.
+The second state diagram has to illustrate the states of a file that is newly created in a Git repository.
 
 Use the git commands `clone`, `add` and `commit` together with file `edit`s as events that trigger state changes.
 Can you also illustrate the actions that Git performs on these events with the help of the [chapter from the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)?
 
 
 ### Exercise 5
+
 
 Translate the UML collaboration diagram (Fig. 14-14 from APPP), see below into a sequence diagram.
 
