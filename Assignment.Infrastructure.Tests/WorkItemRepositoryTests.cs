@@ -1,6 +1,6 @@
 namespace Assignment.Infrastructure.Tests;
 
-public class TaskRepositoryTests
+public class WorkItemRepositoryTests
 {
 
 }

@@ -1,5 +1,5 @@
 namespace Assignment.Infrastructure;
 
-public class TaskRepository
+public class WorkItemRepository
 {
 }
