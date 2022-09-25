@@ -1,4 +1,4 @@
-namespace Assignment3.Core;
+namespace Assignment.Core;
 
 public record TaskDTO(int Id, string Title, string AssignedToName, IReadOnlyCollection<string> Tags, State State);
 
